@@ -37,6 +37,11 @@ console.log(reverseWords(`Let's take LeetCode contest`))
 * [696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)
   * 思路：仔细找输入与输出的关系，把输出往输入里面套，形成图谱后进行规律分析。
   * 知识点
+    * String.prototype.slice
+    * String.prototype.match
+    * String.prototype.repeat
+    * Array.prototype.push
+    * RegExp
 
 ### A & Q
 #### 难度大的算法题目如何解？
