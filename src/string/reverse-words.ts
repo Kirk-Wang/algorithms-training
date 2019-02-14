@@ -8,10 +8,21 @@
  * console.log(reverseWords(`Let's take LeetCode contest`))
  * // => s'teL ekat edoCteeL tsetnoc
  * ```
+ *
+ * ### 知识点
+ * - String.prototype.split
+ * - String.prototype.match
+ * - Array.prototype.map
+ * - Array.prototype.reverse
+ * - Array.prototype.join
  */
 export const reverseWords = (words: string) =>
   words
-    .split(' ')
+    // 也可以直接用 match 匹配单词
+    // 但是这里有一个问题，match匹配不到会返回 null
+    // split 匹配不到还是会直接返回原数组，不影响后续的 map
+    // .match(/[\w']+/g)
+    .split(/\s/g) // 这里的空格直接换成正则
     .map(word =>
       word
         .split('')
