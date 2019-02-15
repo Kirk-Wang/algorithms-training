@@ -36,13 +36,16 @@ console.log(countBinarySubstrings("00110011"))
 ### 字符串
 
 * [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
+
   * 知识点
     * String.prototype.split
     * String.prototype.match
     * Array.prototype.map
     * Array.prototype.reverse
     * Array.prototype.join
+    
 * [696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)
+
   * 思路
     * 仔细找输入与输出的关系，把输出往输入里面套，形成图谱后进行规律分析。
     * 找题目所要求的子串，从原字符串 0 位开始
@@ -60,9 +63,13 @@ console.log(countBinarySubstrings("00110011"))
 ### 数组
 
 * [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
+
   * 思路
     * 把输出往输入里面套，明显就是一个组合问题
     * 根据数字字符串，找到映射字符串，递归两两组合，最终形成所有的组合
+
+  * 知识点
+    * Array.prototype.splice
 
 
 ### A & Q
