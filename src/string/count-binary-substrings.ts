@@ -1,14 +1,13 @@
 export const countBinarySubstrings = (str: string) => {
-  // 正则查找题目所要求的串
-  const match = (substr: string) => {
-    const strA = (substr.match(/^(0+|1+)/) || [])[0] || ''
-    const strB = (+strA[0] ^ 1).toString().repeat(strA.length)
-    return (substr.match(new RegExp(`${strA}${strB}`)) || [])[0] || ''
-  }
-
-  const count = []
+  let count = 0
   for (let i = 0; i < str.length - 1; i++) {
-    match(str.substr(i)) && count.push(match(str.substr(i)))
+    const tmpStr = str.substr(i)
+    const strA = (tmpStr.match(/^(0+|1+)/) || [])[0] || ''
+    if (
+      (tmpStr.match(new RegExp(`${strA}${(+strA[0] ^ 1).toString().repeat(strA.length)}`)) || [])[0]
+    ) {
+      count++
+    }
   }
-  return count.length
+  return count
 }
