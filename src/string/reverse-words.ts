@@ -9,12 +9,6 @@
  * // => s'teL ekat edoCteeL tsetnoc
  * ```
  *
- * ### 知识点
- * - String.prototype.split
- * - String.prototype.match
- * - Array.prototype.map
- * - Array.prototype.reverse
- * - Array.prototype.join
  */
 export const reverseWords = (words: string) =>
   words

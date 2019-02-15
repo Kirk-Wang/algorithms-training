@@ -2,3 +2,4 @@
 // import "core-js/fn/array.find"
 // ...
 export * from './string/reverse-words'
+export * from './string/count-binary-substrings'
