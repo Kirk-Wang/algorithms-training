@@ -6,6 +6,8 @@
 
 ### 上✋玩具
 
+[文档](https://o-o.ren/algorithms-training/index.html)
+
 安装
 ```sh
 npm i algorithms-training
