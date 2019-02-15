@@ -13,8 +13,14 @@ npm i algorithms-training
 
 使用
 ```js
-import { reverseWords } from 'algorithms-training'
+import { 
+  reverseWords,
+  countBinarySubstrings,
+} from 'algorithms-training'
 console.log(reverseWords(`Let's take LeetCode contest`))
+// s'teL ekat edoCteeL tsetnoc
+console.log(countBinarySubstrings("00110011"))
+// 6
 ```
 
 ### 开发实验环境准备
