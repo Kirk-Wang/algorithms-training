@@ -33,7 +33,7 @@ console.log(countBinarySubstrings("00110011"))
   * [Travis CI](https://travis-ci.org/)
   * [Coveralls](https://coveralls.io/)
 
-### 基础算法 “字符串”
+### 字符串
 
 * [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
   * 知识点
@@ -56,6 +56,14 @@ console.log(countBinarySubstrings("00110011"))
     * String.prototype.repeat
     * Array.prototype.push
     * RegExp
+
+### 数组
+
+* [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
+  * 思路
+    * 把输出往输入里面套，明显就是一个组合问题
+    * 根据数字字符串，找到映射字符串，递归两两组合，最终形成所有的组合
+
 
 ### A & Q
 #### 难度大的算法题目如何解？
