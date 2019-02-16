@@ -18,11 +18,14 @@ npm i algorithms-training
 import { 
   reverseWords,
   countBinarySubstrings,
+  letterCombinations,
 } from 'algorithms-training'
 console.log(reverseWords(`Let's take LeetCode contest`))
 // s'teL ekat edoCteeL tsetnoc
 console.log(countBinarySubstrings("00110011"))
 // 6
+console.log(letterCombinations("23"))
+// ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
 ```
 
 ### 开发实验环境准备
@@ -66,10 +69,10 @@ console.log(countBinarySubstrings("00110011"))
 
   * 思路
     * 把输出往输入里面套，明显就是一个组合问题
-    * 根据数字字符串，找到映射字符串，递归两两组合，最终形成所有的组合
+    * 根据数字字符串，找到映射字符串，reduce 两两组合，最终形成所有的组合
 
   * 知识点
-    * Array.prototype.splice
+    * Array.prototype.reduce
 
 
 ### A & Q

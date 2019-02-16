@@ -3,3 +3,4 @@
 // ...
 export * from './string/reverse-words'
 export * from './string/count-binary-substrings'
+export * from './array/letter-combinations-of-a-phone-number'
