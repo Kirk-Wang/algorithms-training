@@ -74,6 +74,13 @@ console.log(letterCombinations("23"))
   * 知识点
     * Array.prototype.reduce
 
+* [914. 卡牌分组](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/)
+
+  * 思路
+    * 排序
+    * 按数字分组，记录`长度最小`的组
+    * return 各分组`长度`是否能被整除
+
 
 ### A & Q
 #### 难度大的算法题目如何解？
