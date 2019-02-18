@@ -4,6 +4,13 @@
 
 [![Build Status](https://travis-ci.org/Kirk-Wang/algorithms-training.svg?branch=master)](https://travis-ci.org/Kirk-Wang/algorithms-training) &nbsp; [![Coverage Status](https://coveralls.io/repos/github/Kirk-Wang/algorithms-training/badge.svg?branch=master)](https://coveralls.io/github/Kirk-Wang/algorithms-training?branch=master)
 
+### 编码技巧
+
+* 递归控制
+* 循环控制
+* 边界控制
+* 数据结构
+
 ### 上✋玩具
 
 [文档](https://o-o.ren/algorithms-training/index.html)
