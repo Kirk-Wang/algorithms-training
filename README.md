@@ -19,6 +19,7 @@ import {
   reverseWords,
   countBinarySubstrings,
   letterCombinations,
+  hasGroupsSizeX,
 } from 'algorithms-training'
 console.log(reverseWords(`Let's take LeetCode contest`))
 // s'teL ekat edoCteeL tsetnoc
@@ -26,6 +27,8 @@ console.log(countBinarySubstrings("00110011"))
 // 6
 console.log(letterCombinations("23"))
 // ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
+console.log(hasGroupsSizeX([1,2,3,4,4,3,2,1]))
+// true
 ```
 
 ### 开发实验环境准备
@@ -76,6 +79,7 @@ console.log(letterCombinations("23"))
 
 * [914. 卡牌分组](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/)
 
+  * 认真读题
   * 思路
     * 排序
     * 按数字分组，记录`长度最小`的组
