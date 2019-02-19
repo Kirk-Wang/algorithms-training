@@ -57,6 +57,8 @@
 
 ### DOM-Diff 简单实现
 
+[深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)
+
 **实现步骤**
 
 1. 用 JavaScript 对象模拟DOM
