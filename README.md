@@ -66,6 +66,23 @@ a > b
 x <= 3
 ```
 
+**线性时间的算法**
+
+从一个有序数组中搜索一个值，最暴力的方法就是遍历了。当然也是最慢的做法。我们来分析下这个算法的复杂度，我们下面来分析一下的运行时间。
+
+```js
+function find(arr, value) {
+  for (let i=0;i<arr.length;i++) {
+    if (arr[i] === value) {
+      return value
+    }
+  }
+  return null
+}
+```
+
+
+
 ### 编码技巧
 
 * 递归控制
