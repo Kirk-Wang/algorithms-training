@@ -4,6 +4,25 @@
 
 [![Build Status](https://travis-ci.org/Kirk-Wang/algorithms-training.svg?branch=master)](https://travis-ci.org/Kirk-Wang/algorithms-training) &nbsp; [![Coverage Status](https://coveralls.io/repos/github/Kirk-Wang/algorithms-training/badge.svg?branch=master)](https://coveralls.io/github/Kirk-Wang/algorithms-training?branch=master)
 
+
+### 时间复杂度
+
+**算法依赖模型**
+
+我们假定 CPU 会顺序的执行所有的指令，而内存随机访问的代价是相同的，例如：
+
+而与内存最相近的数据结构就是数组，那么我们认为，对于任何一个我们定义的数组：
+
+```js
+const a = [1, 2, 3, 4, 5]
+```
+
+它的索引操作，占用 `1` 单位时间（也就是消耗 1 的 CPU 指令）
+
+```js
+a[2]
+```
+
 ### 编码技巧
 
 * 递归控制
