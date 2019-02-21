@@ -10,7 +10,6 @@ export const linkedListCreator = (list: Array<number>) => {
   const firstNode = new LinkedListNode(list[0])
   // 每次规模的缩小程度必须为 1
   // 对于规模为 N-1 的问题能够正确的运行
-  const headOfSublist = linkedListCreator(list.slice(1))
-  firstNode.setNext(headOfSublist)
+  firstNode.setNext(linkedListCreator(list.slice(1)))
   return firstNode
 }

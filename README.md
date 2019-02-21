@@ -313,6 +313,8 @@ import {
   countBinarySubstrings,
   letterCombinations,
   hasGroupsSizeX,
+  LinkedListNode,
+  linkedListCreator,
 } from 'algorithms-training'
 console.log(reverseWords(`Let's take LeetCode contest`))
 // s'teL ekat edoCteeL tsetnoc
@@ -322,6 +324,8 @@ console.log(letterCombinations("23"))
 // ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
 console.log(hasGroupsSizeX([1,2,3,4,4,3,2,1]))
 // true
+console.log(LinkedListNode.printLinkedList(linkedListCreator([1, 2, 3, 4, 5])))
+// [1, 2, 3, 4, 5]
 ```
 
 ### 开发实验环境准备
