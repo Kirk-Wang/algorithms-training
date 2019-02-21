@@ -173,7 +173,15 @@ function find(arr, value) {
 
 ### 前端算法数据结构的场景
 
+**图相关算法**
 
+rollup 使用 tree-shaking 算法，检测用不到的代码，减小包的大小
+
+**树（DOM-DIFF）算法**
+
+**队列和调度算法（React Fiber）**
+
+* [Fiber vs Stack Demo](https://claudiopro.github.io/react-fiber-vs-stack-demo/)
 
 ----
 
