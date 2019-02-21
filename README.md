@@ -270,7 +270,7 @@ rollup 使用 tree-shaking 算法，检测用不到的代码，减小包的大�
 #### 循环控制
 
 * 循环不变式（loop invariant)
-
+  * 是一句断言定义各变量所满足的条件
 ---
 
 ### DOM-Diff 简单实现
