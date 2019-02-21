@@ -189,6 +189,16 @@ rollup 使用 tree-shaking 算法，检测用不到的代码，减小包的大�
 **图形算法**
 
 * SVG 和 Canvas 绘图底层的算法，衍生出 d3.js, highcharts, echarts, canvas.js 等等一些列的图标库；以及构成 html 中渲染的基础
+* [http://cubic-bezier.com/](http://cubic-bezier.com/)
+
+**数据可视化算法**
+
+**3D相关算法**
+
+* tree.js[https://github.com/marmelab/tree.js]
+
+
+
 ----
 
 ### 编码技巧
