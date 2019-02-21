@@ -182,6 +182,7 @@ rollup 使用 tree-shaking 算法，检测用不到的代码，减小包的大�
 **队列和调度算法（React Fiber）**
 
 * [Fiber vs Stack Demo](https://claudiopro.github.io/react-fiber-vs-stack-demo/)
+* requestAnimationFrame
 
 ----
 
