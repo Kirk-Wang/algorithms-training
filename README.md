@@ -263,6 +263,8 @@ rollup 使用 tree-shaking 算法，检测用不到的代码，减小包的大�
 
 #### 链表反转
 
+* 思想，假设 N-1 项已经反转完成
+
 #### 列出所有组合
 
 #### 递归的缺点
@@ -324,6 +326,7 @@ import {
   hasGroupsSizeX,
   LinkedListNode,
   linkedListCreator,
+  linkedListReverser,
 } from 'algorithms-training'
 console.log(reverseWords(`Let's take LeetCode contest`))
 // s'teL ekat edoCteeL tsetnoc
@@ -335,6 +338,12 @@ console.log(hasGroupsSizeX([1,2,3,4,4,3,2,1]))
 // true
 console.log(LinkedListNode.printLinkedList(linkedListCreator([1, 2, 3, 4, 5])))
 // [1, 2, 3, 4, 5]
+console.log(LinkedListNode.printLinkedList(
+  linkedListReverser(
+    linkedListCreator([1, 2, 3, 4, 5])
+  )
+))
+// [5, 4, 3, 2, 1]
 ```
 
 ### 开发实验环境准备
