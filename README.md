@@ -336,6 +336,7 @@ import {
   LinkedListNode,
   linkedListCreator,
   linkedListReverser,
+  canPlaceFlowers,
 } from 'algorithms-training'
 console.log(reverseWords(`Let's take LeetCode contest`))
 // s'teL ekat edoCteeL tsetnoc
@@ -353,6 +354,8 @@ console.log(LinkedListNode.printLinkedList(
   )
 ))
 // [5, 4, 3, 2, 1]
+console.log(canPlaceFlowers([1,0,0,0,0,1,0,0,1,0], 1))
+// true
 ```
 
 ### 开发实验环境准备
@@ -409,6 +412,9 @@ console.log(LinkedListNode.printLinkedList(
     * 按数字分组，记录`长度最小`的组
     * return 各分组`长度`是否能被整除
 
+* [605. 种花问题](https://leetcode-cn.com/problems/can-place-flowers/)
+
+  * 数学建模意识（`种`或者`没种`抽象成 `0` 或者 `1`)
 
 ### A & Q
 #### 难度大的算法题目如何解？
