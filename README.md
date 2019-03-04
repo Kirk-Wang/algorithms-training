@@ -415,6 +415,9 @@ console.log(canPlaceFlowers([1,0,0,0,0,1,0,0,1,0], 1))
 * [605. 种花问题](https://leetcode-cn.com/problems/can-place-flowers/)
 
   * 数学建模意识（`种`或者`没种`抽象成 `0` 或者 `1`)
+  
+  * 知识点
+    * 问题抽象，数学建模，动态输入
 
 ### A & Q
 #### 难度大的算法题目如何解？
