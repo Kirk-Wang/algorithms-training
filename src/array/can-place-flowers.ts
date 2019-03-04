@@ -7,5 +7,5 @@ export const canPlaceFlowers = (flowerbed: number[], n: number) => {
       count++
     }
   }
-  return count === n
+  return count >= n
 }
