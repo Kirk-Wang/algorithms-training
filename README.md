@@ -48,9 +48,9 @@ console.log(reverseWords(`Let's take LeetCode contest`))
 
   * 思路
     * 仔细找输入与输出的关系，把输出往输入里面套，形成图谱后进行规律分析。
-    
+
     图谱
-      <b color="red">0011</b>0011
+      <b style="color: red">0011</b>0011
       0<b color="red">01</b>10011
       00<b color="red">1100</b>11
       001<b color="red">10</b>011
