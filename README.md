@@ -17,32 +17,8 @@ npm i algorithms-training
 ```js
 import { 
   reverseWords,
-  countBinarySubstrings,
-  letterCombinations,
-  hasGroupsSizeX,
-  LinkedListNode,
-  linkedListCreator,
-  linkedListReverser,
-  canPlaceFlowers,
 } from 'algorithms-training'
 console.log(reverseWords(`Let's take LeetCode contest`))
-// s'teL ekat edoCteeL tsetnoc
-console.log(countBinarySubstrings("00110011"))
-// 6
-console.log(letterCombinations("23"))
-// ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
-console.log(hasGroupsSizeX([1,2,3,4,4,3,2,1]))
-// true
-console.log(LinkedListNode.printLinkedList(linkedListCreator([1, 2, 3, 4, 5])))
-// [1, 2, 3, 4, 5]
-console.log(LinkedListNode.printLinkedList(
-  linkedListReverser(
-    linkedListCreator([1, 2, 3, 4, 5])
-  )
-))
-// [5, 4, 3, 2, 1]
-console.log(canPlaceFlowers([1,0,0,0,0,1,0,0,1,0], 1))
-// true
 ```
 
 ### 开发实验环境准备
@@ -54,11 +30,8 @@ console.log(canPlaceFlowers([1,0,0,0,0,1,0,0,1,0], 1))
   * [Coveralls](https://coveralls.io/)
 
 ### 简单算法
-* 字符串
-* 数组
-* 正则
-* 排序
-* 递归
+
+字符串、数组、正则、排序、递归
 
 ### 字符串
 
