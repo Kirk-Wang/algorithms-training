@@ -62,6 +62,7 @@ console.log(reverseWords(`Let's take LeetCode contest`))
          ↑
     00110`01`1
           ↑
+    具有相同数量的连续0和1
     ```
     * 找题目所要求的子串，从原字符串 0 位开始
       * 正则匹配连续 0 或者 1
