@@ -48,6 +48,7 @@ console.log(reverseWords(`Let's take LeetCode contest`))
 
   * 思路
     * 仔细找输入与输出的关系，把输出往输入里面套，形成图谱后进行规律分析。
+    
       图谱
       00110011
     * 找题目所要求的子串，从原字符串 0 位开始
