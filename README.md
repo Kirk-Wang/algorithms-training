@@ -4,8 +4,6 @@
 
 [![Build Status](https://travis-ci.org/Kirk-Wang/algorithms-training.svg?branch=master)](https://travis-ci.org/Kirk-Wang/algorithms-training) &nbsp; [![Coverage Status](https://coveralls.io/repos/github/Kirk-Wang/algorithms-training/badge.svg?branch=master)](https://coveralls.io/github/Kirk-Wang/algorithms-training?branch=master)
 
-
-
 ### 上✋玩具
 
 [文档](https://o-o.ren/algorithms-training/index.html)
@@ -54,6 +52,13 @@ console.log(canPlaceFlowers([1,0,0,0,0,1,0,0,1,0], 1))
   * [npm](https://www.npmjs.com/)
   * [Travis CI](https://travis-ci.org/)
   * [Coveralls](https://coveralls.io/)
+
+### 简单算法
+* 字符串
+* 数组
+* 正则
+* 排序
+* 递归
 
 ### 字符串
 
