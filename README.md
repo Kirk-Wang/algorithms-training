@@ -145,9 +145,7 @@ console.log(reverseWords(`Let's take LeetCode contest`))
 
   * 认真读题
   * 思路
-    * 排序
-    * 按数字分组，记录`长度最小`的组
-    * return 各分组`长度`是否能被整除
+    * 计算两个数的a, b的最大公约数
 
 * [605. 种花问题](https://leetcode-cn.com/problems/can-place-flowers/)
 
