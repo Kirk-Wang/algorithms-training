@@ -29,9 +29,17 @@ console.log(reverseWords(`Let's take LeetCode contest`))
   * [Travis CI](https://travis-ci.org/)
   * [Coveralls](https://coveralls.io/)
 
-### 简单算法
+### 基础算法
 
-字符串、数组、正则、排序、递归
+字符串、数组、正则表达式、排序、递归
+
+### 数据结构
+
+堆、栈、队列、链表、矩阵、二叉树
+
+### 进阶算法
+
+贪心算法、动态规划
 
 ### 字符串
 
