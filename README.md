@@ -137,6 +137,8 @@ console.log(reverseWords(`Let's take LeetCode contest`))
     * 根据数字字符串，找到映射字符串，reduce 两两组合，最终形成所有的组合
 
   * 知识点
+    * Array.prototype.splice
+      * 不用 reduce API 实现
     * Array.prototype.reduce
 
 * [914. 卡牌分组](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/)
