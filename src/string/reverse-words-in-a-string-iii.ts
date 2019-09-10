@@ -1,6 +1,6 @@
 export function reverseWordsInAStringIII(s: string) {
   return s
-    .split(' ')
+    .split(/\s/)
     .map(item =>
       item
         .split('')
