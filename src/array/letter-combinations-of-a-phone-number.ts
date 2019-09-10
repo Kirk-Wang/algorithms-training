@@ -8,6 +8,16 @@ export const letterCombinations = (strNum: string) => {
     }
   })
 
+  // return arr.reduce((a: any, b: any) => {
+  //   const tmp: any[] =[]
+  //   for (let i = 0; i < a.length; i++) {
+  //     for (let j = 0; j < b.length; j++) {
+  //       tmp.push(`${a[i] + b[j]}`)
+  //     }
+  //   }
+  //   return tmp
+  // })
+
   const comp: any = (compArr: any) => {
     const strA = compArr[0]
     const strB = compArr[1]
