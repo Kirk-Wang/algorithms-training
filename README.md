@@ -153,6 +153,10 @@ console.log(reverseWords(`Let's take LeetCode contest`))
   
   * 知识点
     * 问题抽象，数学建模，动态输入
+    * 注意边界问题
+      * prev
+      * self
+      * next
 
 ### A & Q
 #### 难度大的算法题目如何解？
