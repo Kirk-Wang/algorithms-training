@@ -1,22 +1,15 @@
-export const hasGroupsSizeX = (inputArr: number[]) => {
-  const tmp: number[] = []
-  const groups: any[] = []
-  let min = 0
-  const match = (num: number) => {
-    if (!tmp.length || tmp[0] === num) {
-      tmp.push(num)
-    } else {
-      setGroups()
-      setMin()
-      tmp.length = 0
-      tmp.push(num)
+export const hasGroupsSizeX = (numArr: number[]) => {
+  const str = numArr.sort().join('')
+  const groups: any = str.match(/(\d)\1+|\d/g)
+  const commonDivisor = (a: number, b: number): number => (b === 0 ? a : commonDivisor(b, a % b))
+  while (groups && groups.length > 1) {
+    const a = groups.shift().length
+    const b = groups.shift().length
+    const cd: number = commonDivisor(a, b)
+    if (cd < 2) {
+      return false
     }
+    groups.unshift(cd.toString().repeat(cd))
   }
-  const setGroups = () => groups.push([...tmp])
-  const setMin = () => (min > tmp.length || min === 0 ? (min = tmp.length) : min)
-
-  inputArr.sort().forEach(x => match(x))
-  setGroups()
-  setMin()
-  return groups.every(x => x.length % min === 0 && min >= 2)
+  return groups && groups.length && groups[0].length > 1
 }
