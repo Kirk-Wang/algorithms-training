@@ -158,6 +158,8 @@ console.log(reverseWords(`Let's take LeetCode contest`))
       * self
       * next
 
+* [89. 格雷编码](https://leetcode-cn.com/problems/gray-code/)
+
 ### A & Q
 #### 难度大的算法题目如何解？
 算法的本质是寻找规律并实现
