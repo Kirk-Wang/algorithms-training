@@ -159,11 +159,14 @@ console.log(reverseWords(`Let's take LeetCode contest`))
       * next
 
 * [89. 格雷编码](https://leetcode-cn.com/problems/gray-code/)
-* 知识点
-  * 发现规律、动态输入
+  * 知识点
+    * 发现规律、动态输入
 
 * [459. 重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern/)
   * [Regular_Expressions](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions)
+  * 知识点
+    * 模式匹配
+
 ```
 找规律：
 输入：1
